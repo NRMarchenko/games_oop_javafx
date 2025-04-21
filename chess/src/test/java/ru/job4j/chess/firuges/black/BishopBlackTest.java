@@ -23,7 +23,9 @@ class BishopBlackTest {
     void way() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C1);
         Cell[] way = bishopBlack.way(Cell.G5);
-        for (Cell cell : way) System.out.println(cell);
+        for (Cell cell : way) {
+            System.out.println(cell);
+        }
     }
 
     @Test
